@@ -23,7 +23,13 @@
     "wiki":           "http://patternlab.io/docs/",
     "source":         "https://github.com/pattern-lab/styleguidekit-twig-default/releases"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:AmazeeLabs/styleguidekit-assets-default.git"
+    }
+  ],
   "require": {
-    "pattern-lab/styleguidekit-assets-default": "^3.0.0"
+    "pattern-lab/styleguidekit-assets-default": "dev-amazee"
   }
 }
